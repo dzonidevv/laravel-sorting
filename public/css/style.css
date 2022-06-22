@@ -1,0 +1,37 @@
+body {
+    margin-top: 150px;
+    background-color: #FBFBFB;
+    user-select: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+table, th, td {
+    border:0.4px solid #337ABD !important;
+  }
+.text-danger {
+    color: red;
+}
+
+.text-black {
+    color: #000;
+}
+
+.spacing { 
+    user-select: text;
+    margin-top: -20px;
+    letter-spacing: 1px;
+}
+
+table {
+    margin-top: 50px;
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 5px 10px;
+    bottom: 0;
+    width: 100%;
+}
