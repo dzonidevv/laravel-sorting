@@ -18,19 +18,24 @@
 
 <body>
     <div class="container">
-        <h3 class="text-center text-danger">Laravel 
+    
+        <center>
+
+            <h3 class="text-danger">Laravel 
             
-        <span class="text-black">
-            Sorting
-        </span>
+                <span class="text-black">
+                    Sorting
+                </span>
+        
+                    <img 
+                    height="30"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" 
+                    alt="Laravel"
+                    title="Laravel">
+        
+                </h3>
 
-            <img 
-            height="30"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" 
-            alt="Laravel"
-            title="Laravel">
-
-        </h3>
+        </center>
        
         <table class="table table-bordered">
             
@@ -76,7 +81,9 @@
 
             </tbody>
         </table>
+
         {!! $products->appends(\Request::except('page'))->render() !!}
+        
     </div>
 
 
